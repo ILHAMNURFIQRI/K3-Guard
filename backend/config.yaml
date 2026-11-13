@@ -1,0 +1,76 @@
+# K3Guard AI - konfigurasi. Nilai ambang adalah nilai awal PRD; setel ulang setelah uji di lab.
+
+model:
+  ppe_weights: ../ml/runs/detect/k3guard/weights/best.pt   # hasil ml/train.py (relatif terhadap folder backend)
+  pose_weights: ../ml/weights/yolo11n-pose.pt              # pretrained COCO, auto-download kalau belum ada
+  version: k3guard-v1
+  imgsz: 1280          # orang jauh = objek kecil (sepatu ~25 px); 640 tidak mendeteksinya, 1280 masih ~8 fps di RTX 3050
+  device: 0            # 0 = GPU pertama, "cpu" kalau tanpa GPU
+  infer_fps: 8         # target 5-10 FPS (PRD 6.1.2)
+
+# Ambang confidence per kelas (FA-9). Kelas yang tidak disebut pakai default.
+conf:
+  default: 0.30        # 0.40 terlalu ketat untuk webcam (domain beda dari data latih); voting 15 frame menyaring salah deteksi
+  person_danger: 0.50
+  no_coverall: 0.20    # baju gelap polos jarang terbaca di webcam; pasangan coverall/no_coverall diadu per rata-rata confidence (ppe.py), jadi aman diturunkan
+
+camera:
+  id: 1
+  name: Kamera Utama
+  area_id: 1
+  source: 1            # 0 = webcam, "rtsp://...", atau path file video
+  loop_video: true     # mode putar ulang video uji (FC-7)
+
+# Zona tubuh: persentase tinggi bbox person dari atas (PRD 6.1.3)
+zones:
+  head:  [0.00, 0.30]
+  body:  [0.15, 0.65]
+  legs:  [0.45, 0.90]
+  feet:  [0.80, 1.00]
+
+ppe:
+  window_frames: 15         # jendela voting (PRD 6.1.4)
+  vote_ratio: 0.60
+  violation_seconds: 5      # NON_COMPLIANT bertahan >= 5 dtk (PRD 6.1.6)
+  cooldown_seconds: 60
+
+fall:
+  vote_window_seconds: 3    # person_danger >= 60% frame dalam 3 dtk -> source model
+  vote_ratio: 0.60
+  falling_angle_from: 30
+  falling_angle_to: 60
+  falling_within_seconds: 1.0
+  hip_drop_speed: 0.8       # tinggi-badan per detik
+  lying_angle: 60
+  lying_ratio: 1.0
+  alert_seconds: 3
+  recover_angle: 40
+  recover_seconds: 1
+  min_kpt_conf: 0.5
+  hold_seconds: 5           # harus terus terkapar 5 dtk sebelum notifikasi; dikirim 1 kali per kejadian
+  cooldown_seconds: 60
+
+# Area dan atribut wajib (PRD 6.1.5). Disalin ke DB saat pertama jalan, lalu diatur dari dashboard.
+areas:
+  - id: 1
+    name: Bengkel Mesin
+    description: Area praktikum bengkel mesin
+    required: [head, body, legs, feet]
+
+rag:
+  llm_provider: ollama      # ollama (lokal, tanpa key) | gemini (GEMINI_API_KEY) | claude (ANTHROPIC_API_KEY)
+  ollama_model: llama3.2:3b
+  gemini_model: gemini-2.5-flash
+  llm_model: claude-opus-5-5   # dipakai kalau llm_provider: claude
+  embed_model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  chunk_tokens: 600
+  overlap_tokens: 100
+  top_k: 4
+  min_score: 0.35           # di bawah ini langsung "tidak ditemukan", LLM tidak dipanggil
+
+contact:
+  officer_name: Petugas K3
+  phone: "-"
+  telegram_link: "-"
+
+media_retention_days: 30

@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+/* ============================================
+   K3Guard AI Design Tokens
+   ============================================ */
+
+@theme {
+  /* Satu sistem: biru baja = tindakan wajib/navigasi aktif, oranye = aksi utama, sisanya netral hangat. */
+  --color-off-white: #F7F7F4;
+  --color-pure-white: #FFFFFF;      /* putih tetap: teks di atas panel berwarna */
+  --color-surface: #FFFFFF;         /* permukaan kartu: berganti di mode gelap */
+  --color-night: #202A30;           /* panel gelap permanen (video, orb): tidak berganti */
+  --color-steel-blue: #24546A;
+  --color-industrial-blue: #3B7894;
+  --color-safety-orange: #F28C28;
+  --color-charcoal: #202A30;
+  --color-muted-gray: #66737A;
+  --color-success: #2E7D32;
+  --color-warning: #D99A00;
+  --color-critical: #C62828;
+
+  --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  /* Radius berjenjang: kontrol 12px, kartu 20px, panel besar 28px */
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.75rem;
+
+  --shadow-xs: 0 1px 0 rgb(32 42 48 / 0.04);
+  --shadow-sm: 0 1px 2px rgb(32 42 48 / 0.07);
+  --shadow-lg: 0 14px 32px -14px rgb(32 42 48 / 0.28);
+  --shadow-xl: 0 26px 50px -18px rgb(32 42 48 / 0.34);
+}
+
+/* Mode gelap: kelas "dark" di <html>. Token semantik di bawah berganti, jadi semua utilitas
+   (text-charcoal, border-charcoal/10, bg-surface, bg-off-white, ...) ikut berganti tanpa mengubah komponen. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark {
+  color-scheme: dark;
+  --color-off-white: #080E13;
+  --color-surface: #101A22;
+  --color-charcoal: #E6ECEF;
+  --color-muted-gray: #94A2AB;
+  --color-steel-blue: #4590B2;
+  --color-industrial-blue: #62A5C4;
+  --color-success: #5DBB63;
+  --color-warning: #F0B429;
+  --color-critical: #EF7070;
+}
+
+/* ============================================
+   Skala tipografi (satu sumber untuk semua halaman)
+   display 72/hero landing, h2 48/judul bagian landing, hero 40/sapaan,
+   title 24/judul halaman, section 16/judul kartu, lead 14/keterangan
+   ============================================ */
+@layer components {
+  .ui-display {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.02;
+    font-size: clamp(2.5rem, 1.4rem + 4.2vw, 4.5rem);
+    text-wrap: balance;
+  }
+  .ui-h2 {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.08;
+    font-size: clamp(1.875rem, 1.2rem + 2.4vw, 3rem);
+    text-wrap: balance;
+  }
+  .ui-hero {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.12;
+    font-size: clamp(1.75rem, 1.25rem + 1.8vw, 2.5rem);
+    text-wrap: balance;
+  }
+  .ui-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    color: var(--color-charcoal);
+  }
+  .ui-section {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.35;
+    font-size: 1rem;
+    color: var(--color-charcoal);
+  }
+  .ui-lead {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--color-muted-gray);
+  }
+  /* cahaya biru di dasar kanvas, mengikuti referensi gelap-bernuansa-teal */
+  .canvas-glow {
+    background: radial-gradient(70% 55% at 50% 118%, color-mix(in srgb, var(--color-industrial-blue) 20%, transparent), transparent 70%);
+  }
+  .dark .canvas-glow {
+    background: radial-gradient(80% 60% at 50% 122%, rgb(27 125 150 / 0.62), transparent 72%);
+  }
+  .tabular { font-variant-numeric: tabular-nums; }
+}
+
+/* transisi halus hanya selama tema diganti (kelas dipasang sebentar oleh useTheme) */
+.theme-anim,
+.theme-anim *,
+.theme-anim *::before,
+.theme-anim *::after {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease,
+    fill 0.3s ease, stroke 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* ============================================
+   Base Styles
+   ============================================ */
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-off-white);
+    color: var(--color-charcoal);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* ============================================
+   Custom Cursor Styles
+   ============================================ */
+
+.custom-cursor {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+/* ============================================
+   Marquee Animation
+   ============================================ */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* ============================================
+   Scroll-linked Navbar
+   ============================================ */
+
+.dark .navbar-scrolled {
+  background-color: rgba(16, 26, 34, 0.92);
+  border-bottom-color: rgba(228, 233, 236, 0.1);
+}
+
+.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(32, 42, 48, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* ============================================
+   Reduced Motion
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-marquee {
+    animation: none;
+  }
+}
+
+/* ============================================
+   Selection
+   ============================================ */
+
+::selection {
+  background-color: var(--color-steel-blue);
+  color: var(--color-pure-white);
+}
+

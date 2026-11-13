@@ -1,0 +1,183 @@
+## 1. Tujuan dan Ruang Lingkup
+Istilah lab, laboratorium, bengkel, dan bengkel mesin dalam SOP ini merujuk pada tempat yang sama, yaitu bengkel mesin laboratorium kampus.
+SOP ini mengatur penggunaan alat pelindung diri (APD), keselamatan kerja, dan pertolongan pertama pada keadaan darurat di bengkel mesin laboratorium kampus.
+SOP berlaku untuk semua mahasiswa, instruktur, laboran, dan tamu yang berada di area bengkel.
+Dokumen ini berisi tiga topik: APD, keselamatan kerja, dan pertolongan pertama. Hal di luar tiga topik ini tidak diatur di sini.
+Chatbot dan dokumen ini bukan pengganti tenaga medis. Dalam keadaan darurat nyata, segera hubungi petugas K3 dan layanan darurat.
+
+## 2. Kewajiban Umum Praktikan
+Setiap praktikan wajib mengikuti pengarahan keselamatan sebelum praktikum pertama.
+Praktikan wajib memakai APD lengkap sebelum masuk area kerja, bukan setelah berada di dalam.
+Praktikan wajib mengikuti petunjuk instruktur dan petugas K3 selama berada di bengkel.
+Praktikan dilarang mengoperasikan mesin tanpa izin dan pengawasan instruktur.
+Praktikan wajib melaporkan kondisi mesin yang rusak, kabel terkelupas, atau alat pelindung yang hilang kepada instruktur sebelum mesin dipakai.
+Praktikan yang sedang sakit, mengantuk, atau mengonsumsi obat yang menyebabkan kantuk dilarang mengoperasikan mesin.
+Dilarang makan, minum, merokok, dan bercanda atau berlari di dalam bengkel.
+
+## 3. APD Wajib di Bengkel Mesin
+Empat APD berikut wajib dipakai oleh semua orang di area bengkel mesin, kapan pun mesin menyala atau tidak.
+Pertama, helm pengaman (helm safety) terpasang di kepala dengan tali dagu dikencangkan. Helm yang hanya dibawa di tangan atau digantung dianggap tidak dipakai.
+Kedua, baju praktikum atau wearpack yang menutup badan dan lengan, dikancingkan atau diresleting, dan tidak longgar. Lengan tidak boleh digulung sampai tersangkut mesin.
+Ketiga, celana panjang berbahan tebal seperti jeans atau celana wearpack. Celana pendek, rok pendek, dan celana robek dilarang.
+Keempat, sepatu safety tertutup dengan ujung baja atau komposit dan sol anti selip. Sandal, sepatu sandal, sepatu kain, dan sepatu berhak dilarang.
+Praktikan yang tidak memakai keempat APD wajib ini tidak diizinkan masuk atau diminta keluar dari area bengkel sampai perlengkapannya lengkap.
+
+## 4. APD Tambahan Sesuai Jenis Pekerjaan
+Kacamata pengaman (safety glasses) wajib untuk pekerjaan yang menghasilkan geram, percikan, atau serpihan, yaitu membubut, mengefrais, mengebor, menggerinda, dan memotong. Kacamata biasa tidak menggantikan kacamata pengaman.
+Sumbat telinga (earplug) atau penutup telinga (earmuff) wajib di area dengan kebisingan tinggi, misalnya saat menggerinda atau mengoperasikan banyak mesin sekaligus.
+Masker atau respirator wajib saat menggerinda, mengecat, menyemprot, atau bekerja dengan debu dan uap bahan kimia.
+Pelindung wajah (face shield) dipakai saat menggerinda dan memotong logam, bersama kacamata pengaman.
+Sarung tangan kulit atau sarung tangan las wajib untuk memegang benda panas atau tajam dan untuk mengelas. Sarung tangan dilarang dipakai saat mengoperasikan mesin yang berputar seperti bubut, frais, dan bor, karena dapat tertarik dan menyeret tangan.
+Celemek kulit dan helm las wajib untuk pekerjaan pengelasan.
+
+## 5. Pemeriksaan dan Perawatan APD
+Periksa APD sebelum dipakai. Helm yang retak, penyok, atau sudah lama terpapar panas harus diganti.
+Sepatu safety yang ujung bajanya terlihat, sol terkelupas, atau licin harus diganti.
+Kacamata yang tergores parah atau retak harus diganti karena mengurangi penglihatan dan perlindungan.
+Bersihkan APD setelah dipakai dan simpan di tempat kering dan teduh, jauh dari bahan kimia dan sinar matahari langsung.
+Jangan meminjam APD yang tidak pas ukurannya. Laporkan APD rusak atau hilang kepada petugas K3.
+
+## 6. Aturan Umum Keselamatan di Bengkel
+Ikat rambut panjang dan masukkan ke dalam penutup. Lepas dasi, kalung, gelang, cincin, jam tangan, dan syal sebelum bekerja dekat mesin berputar.
+Jaga lantai tetap bersih, kering, dan bebas oli, geram, dan benda berserakan agar tidak terpeleset atau tersandung.
+Jalur jalan, pintu keluar, panel listrik, tombol darurat, dan alat pemadam api (APAR) harus selalu bebas dari halangan.
+Gunakan alat sesuai fungsinya. Jangan memakai kunci, kikir, atau pahat yang rusak atau tidak sesuai ukuran.
+Jangan membersihkan, mengukur, atau menyetel benda kerja ketika mesin masih berputar. Matikan mesin dan tunggu sampai berhenti total.
+Bersihkan geram logam dengan kuas atau pengait geram, jangan dengan tangan kosong.
+Hanya satu orang yang mengoperasikan satu mesin pada satu waktu.
+Setelah selesai, matikan mesin, cabut atau matikan sumber listrik, bersihkan mesin dan area kerja, lalu kembalikan alat.
+
+## 7. Keselamatan Mesin Bubut
+Pastikan benda kerja dan pahat terpasang kuat sebelum mesin dinyalakan.
+Lepas kunci chuck dari chuck sebelum menyalakan mesin. Kunci yang tertinggal dapat terlempar saat chuck berputar.
+Pasang pelindung chuck dan pelindung geram. Jangan membuka pelindung saat mesin berputar.
+Jangan memakai sarung tangan. Jangan menghentikan chuck atau benda kerja dengan tangan.
+Atur putaran sesuai diameter dan bahan benda kerja. Benda kerja yang panjang harus ditopang agar tidak melengkung dan terlempar.
+Pakai kacamata pengaman selama membubut.
+
+## 8. Keselamatan Mesin Frais
+Cekam benda kerja dengan ragum atau klem sampai kuat sebelum menyalakan mesin.
+Jangan mengukur atau menyentuh benda kerja saat pisau frais berputar.
+Pasang pelindung pisau bila tersedia. Jauhkan tangan dan wajah dari area pisau.
+Bersihkan geram dengan kuas setelah mesin berhenti total.
+Gunakan kacamata pengaman, dan pelindung telinga bila bising.
+
+## 9. Keselamatan Mesin Bor
+Benda kerja harus dicekam di ragum atau klem, jangan dipegang dengan tangan.
+Lepas kunci chuck setelah memasang mata bor.
+Atur kecepatan sesuai diameter mata bor dan bahan. Mata bor yang besar memakai putaran lebih rendah.
+Tekan perlahan dan angkat mata bor secara berkala untuk membuang geram dan mendinginkan mata bor.
+Jangan memakai sarung tangan dan jangan mengenakan pakaian longgar saat mengebor.
+
+## 10. Keselamatan Mesin Gerinda
+Periksa batu gerinda sebelum dipasang. Batu yang retak, gompal, atau lembap tidak boleh dipakai.
+Jarak antara penumpu benda kerja (tool rest) dan batu gerinda maksimal sekitar 2 sampai 3 mm.
+Nyalakan gerinda tanpa beban sekitar satu menit dan berdiri di samping bidang putaran, bukan di depannya.
+Pakai kacamata pengaman dan pelindung wajah. Pakai masker dan pelindung telinga.
+Jangan menggerinda sisi samping batu yang tidak dirancang untuk itu. Jangan menekan benda kerja dengan keras.
+Benda yang selesai digerinda panas, tunggu dingin atau pegang dengan alat penjepit.
+
+## 11. Keselamatan Pengelasan
+Pakai helm las dengan filter yang sesuai, sarung tangan las, celemek kulit, dan sepatu safety. Jangan menatap busur las tanpa pelindung karena dapat melukai mata.
+Kerjakan pengelasan di area dengan ventilasi baik atau pengisap asap. Jauhkan bahan mudah terbakar seperti kertas, kain, oli, dan cairan mudah menyala.
+Silinder gas harus diikat berdiri dan dijauhkan dari panas dan percikan. Periksa selang dan regulator tidak bocor sebelum dipakai.
+Beri tanda pada benda yang baru dilas karena masih panas. Siapkan APAR di dekat area las.
+Matikan mesin las dan tutup katup gas setelah selesai.
+
+## 12. Keselamatan Listrik
+Pastikan tangan kering dan lantai tidak basah saat menyentuh saklar atau peralatan listrik.
+Jangan memakai kabel yang terkelupas, steker rusak, atau sambungan kabel yang ditumpuk di lantai.
+Jangan memperbaiki instalasi listrik sendiri. Laporkan kerusakan kepada petugas K3 atau teknisi.
+Tahu letak panel listrik utama dan saklar darurat. Pada keadaan darurat, matikan sumber listrik.
+Jangan menyiram air pada api yang berasal dari peralatan listrik.
+
+## 13. Bahan Berbahaya dan Limbah
+Oli, pendingin (coolant), pelarut, dan cat harus diberi label dan disimpan di wadah tertutup, jauh dari sumber api.
+Baca label bahan sebelum memakai dan pakai APD yang sesuai. Jangan mencampur bahan kimia.
+Tumpahan oli harus segera dibersihkan dengan bahan penyerap agar lantai tidak licin.
+Kain bekas berminyak ditaruh di tempat sampah logam tertutup karena dapat terbakar sendiri.
+Geram dan limbah logam dibuang ke tempat yang disediakan, bukan ke tempat sampah biasa.
+
+## 14. Prosedur Darurat Umum
+Saat terjadi kecelakaan, matikan mesin dengan tombol darurat berwarna merah atau saklar utama terdekat.
+Jauhkan orang lain dari area bahaya, lalu panggil petugas K3 dan instruktur.
+Dalam keadaan darurat medis atau kebakaran, hubungi layanan darurat nasional 112 atau ambulans 119 bila korban parah.
+Jangan memindahkan korban kecuali ada bahaya lain di tempat itu, misalnya api atau listrik, atau korban harus dikeluarkan dari mesin.
+Berikan pertolongan pertama sesuai kemampuan, tetap tenang, dan tetap bersama korban sampai bantuan tiba.
+Nomor petugas K3 dapat dilihat di menu Kontak Petugas atau di papan pengumuman bengkel.
+
+## 15. Pertolongan Pertama: Luka dan Perdarahan
+Cuci tangan atau pakai sarung tangan sekali pakai bila ada sebelum menolong.
+Tekan luka langsung dengan kain bersih atau kasa selama minimal 10 menit tanpa diangkat untuk melihat. Bila kain basah oleh darah, tambahkan kain di atasnya.
+Tinggikan bagian yang terluka bila tidak ada kemungkinan patah tulang.
+Jangan mencabut benda yang menancap di luka. Tahan benda itu dengan kain di sekelilingnya lalu segera cari bantuan medis.
+Luka kecil dibersihkan dengan air mengalir dan sabun, lalu ditutup plester atau kasa.
+Perdarahan hebat atau yang tidak berhenti setelah 10 menit harus segera dibawa ke fasilitas kesehatan atau memanggil ambulans.
+
+## 16. Pertolongan Pertama: Luka Bakar
+Jauhkan korban dari sumber panas. Alirkan air bersuhu ruang pada luka bakar selama sekitar 20 menit.
+Lepas cincin, gelang, atau pakaian yang tidak menempel pada kulit sebelum bengkak.
+Jangan memakai es, pasta gigi, mentega, atau minyak pada luka bakar. Jangan memecahkan lepuh.
+Tutup longgar dengan kain bersih yang tidak berbulu atau plastik wrap.
+Luka bakar yang luas, di wajah, tangan, kaki, atau kemaluan, akibat bahan kimia atau listrik, atau yang membuat kulit putih atau hangus harus segera ditangani tenaga medis.
+Untuk luka bakar bahan kimia, bilas dengan air mengalir minimal 20 menit dan lepas pakaian yang terkena bahan kimia.
+
+## 17. Pertolongan Pertama: Tersengat Listrik
+Jangan menyentuh korban selama masih terhubung dengan sumber listrik.
+Putuskan listrik lebih dulu dengan mematikan saklar utama atau MCB, atau mencabut steker.
+Bila listrik tidak bisa dimatikan, pisahkan korban dari sumber dengan benda kering yang tidak menghantarkan listrik, misalnya kayu kering, sambil berdiri di alas kering.
+Setelah aman, periksa kesadaran dan napas korban. Bila tidak sadar dan tidak bernapas normal, lakukan resusitasi jantung paru (RJP) dan panggil ambulans.
+Semua korban sengatan listrik harus diperiksa tenaga medis, walaupun terlihat baik, karena dapat terjadi gangguan irama jantung.
+
+## 18. Pertolongan Pertama: Mata Kemasukan Benda atau Bahan Kimia
+Jangan mengucek mata.
+Untuk serpihan atau debu, bilas mata dengan air bersih mengalir atau larutan garam fisiologis selama 15 menit dengan kelopak mata terbuka.
+Untuk bahan kimia, bilas terus menerus dengan air mengalir selama 15 sampai 20 menit, arahkan air dari sisi hidung ke luar, lalu segera ke fasilitas kesehatan.
+Bila ada benda menancap di mata, jangan dicabut. Tutup mata dengan pelindung atau gelas kertas tanpa menekan, lalu bawa ke dokter.
+Serpihan logam di mata harus diperiksa dokter walaupun sudah terasa hilang.
+
+## 19. Pertolongan Pertama: Patah Tulang dan Terjepit Mesin
+Bila korban terjepit mesin, matikan mesin dengan tombol darurat dan jangan menarik korban dengan paksa.
+Curigai patah tulang bila ada nyeri hebat, bengkak, bentuk anggota badan berubah, atau tidak dapat digerakkan.
+Jangan memindahkan korban bila ada dugaan cedera leher atau tulang belakang, misalnya jatuh dari ketinggian atau nyeri leher dan punggung. Minta korban tetap diam dan panggil ambulans.
+Imobilisasi bagian yang cedera dalam posisi ditemukan, misalnya dengan bidai dari papan atau kain lipat, tanpa meluruskan dengan paksa.
+Bila ada luka terbuka, hentikan perdarahan dengan menekan di sekitar luka tanpa menekan tulang yang mencuat.
+
+## 20. Pertolongan Pertama: Pingsan, Henti Jantung, dan RJP
+Bagian ini menjelaskan cara menolong korban pingsan dan cara melakukan RJP (resusitasi jantung paru, dalam bahasa Inggris CPR) pada korban henti jantung.
+Untuk korban pingsan, periksa respons dengan menepuk bahu dan memanggil. Bila bernapas normal, baringkan telentang dan tinggikan kaki bila tidak ada cedera kepala atau leher. Longgarkan pakaian dan jangan memberi makan atau minum.
+Bila tidak sadar tetapi bernapas normal, miringkan korban ke posisi pemulihan dan terus pantau napasnya.
+Bila korban tidak merespons dan tidak bernapas atau napas tidak normal, segera panggil bantuan, hubungi 112 atau 119, dan minta orang lain mengambil alat AED bila tersedia.
+Mulai RJP. Letakkan telapak tangan di tengah dada, tekan dengan kedalaman sekitar 5 sampai 6 cm dengan kecepatan 100 sampai 120 kali per menit, dan biarkan dada kembali naik penuh di antara tekanan.
+Bila terlatih memberi napas buatan, lakukan 30 kali kompresi lalu 2 kali napas buatan. Bila tidak terlatih, lakukan kompresi dada terus menerus.
+Lanjutkan sampai bantuan medis tiba, korban bergerak atau bernapas normal, atau AED siap. Bila AED tiba, nyalakan dan ikuti petunjuk suaranya.
+
+## 21. Kebakaran dan Pemakaian APAR
+Bagian ini menjelaskan cara menghadapi kebakaran dan cara memakai APAR (alat pemadam api ringan), yaitu tabung pemadam api yang dapat dibawa dan dipakai satu orang.
+Bila terjadi kebakaran, bunyikan alarm, beri tahu orang di sekitar, dan panggil petugas K3. Matikan mesin dan listrik bila aman.
+Padamkan hanya api yang masih kecil dan hanya bila jalan keluar di belakang Anda aman. Bila api membesar atau asap tebal, segera keluar.
+Gunakan APAR dengan cara PASS: Pull, tarik pin pengaman. Aim, arahkan selang ke pangkal api. Squeeze, tekan tuas. Sweep, sapukan dari sisi ke sisi.
+Jangan menyiram air pada api minyak atau api peralatan listrik. Gunakan APAR serbuk kimia kering atau CO2.
+Evakuasi lewat jalur yang ditandai menuju titik kumpul, jangan memakai lift, dan jangan kembali ke dalam untuk mengambil barang.
+Bila pakaian korban terbakar, minta korban berhenti, menjatuhkan diri, dan berguling di lantai, atau padamkan dengan selimut tebal. Lalu dinginkan luka bakarnya.
+
+## 22. Pelaporan Kecelakaan dan Hampir Celaka
+Setiap kecelakaan, cedera sekecil apa pun, dan kejadian hampir celaka (near miss) harus dilaporkan kepada instruktur atau petugas K3 pada hari yang sama.
+Laporan memuat waktu, tempat, orang yang terlibat, kronologi singkat, penyebab yang diduga, dan pertolongan yang diberikan.
+Jangan mengubah posisi mesin atau peralatan di lokasi kejadian sebelum petugas K3 memeriksanya, kecuali untuk menyelamatkan korban atau mencegah bahaya lanjutan.
+Petugas K3 mencatat kejadian, memeriksa penyebab, dan menetapkan perbaikan agar kejadian yang sama tidak terulang.
+Sistem K3Guard juga mencatat kejadian secara otomatis, yaitu perlengkapan tidak lengkap dan indikasi seseorang terjatuh. Petugas memverifikasi kejadian itu lalu menindaklanjutinya.
+
+## 23. Sanksi dan Pembinaan
+Praktikan yang melanggar aturan APD atau keselamatan diberi teguran dan diminta melengkapi perlengkapannya sebelum melanjutkan.
+Pelanggaran berulang atau yang membahayakan orang lain dapat berujung pada larangan praktikum sementara dan dilaporkan kepada dosen pengampu.
+Instruktur dan petugas K3 berhak menghentikan pekerjaan yang dinilai berbahaya.
+
+## 24. Daftar Singkatan
+K3: keselamatan dan kesehatan kerja.
+APD: alat pelindung diri, yaitu helm, wearpack, celana panjang, sepatu safety, kacamata pengaman, sarung tangan, dan pelindung lain.
+APAR: alat pemadam api ringan, tabung pemadam api yang dipakai dengan cara PASS (Pull, Aim, Squeeze, Sweep).
+RJP: resusitasi jantung paru, bantuan napas dan pijat jantung untuk korban henti jantung, dalam bahasa Inggris CPR.
+AED: alat kejut jantung otomatis yang memberi petunjuk suara saat dipakai.
+MCB: pemutus arus listrik di panel yang dapat dimatikan untuk memutus listrik.
+PASS: Pull, Aim, Squeeze, Sweep, urutan memakai APAR: tarik pin, arahkan selang ke pangkal api, tekan tuas, sapukan dari sisi ke sisi.

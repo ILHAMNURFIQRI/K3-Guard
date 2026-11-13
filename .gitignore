@@ -1,0 +1,21 @@
+# rahasia dan data runtime (token bot, database, foto kejadian, SOP unggahan)
+.env
+backend/data/
+*.db
+
+# dependensi dan hasil build
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vite/
+
+# ML: dataset berisi foto orang (unduh ulang dari Roboflow), bobot dasar diunduh otomatis oleh Ultralytics
+ml/train/
+ml/valid/
+ml/test/
+ml/weights/
+ml/runs/
+ml/*.log
+*.pt

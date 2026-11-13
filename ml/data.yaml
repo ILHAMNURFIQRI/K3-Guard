@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['coverall', 'helmet', 'jeans', 'no_coverall', 'no_helmet', 'no_safety_shoes', 'person_danger', 'person_safe', 'safety_shoes']
+
+roboflow:
+  workspace: ilhams-workspace-hbrbl
+  project: ml-k3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ilhams-workspace-hbrbl/ml-k3/dataset/2

@@ -1,0 +1,15 @@
+# torch CUDA dipasang terpisah dulu:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+ultralytics
+fastapi
+uvicorn[standard]
+python-multipart
+pyyaml
+bcrypt
+pyjwt
+httpx
+anthropic
+sentence-transformers
+pypdf
+python-docx
+pytest
